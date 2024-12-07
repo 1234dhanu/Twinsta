@@ -48,7 +48,6 @@ router.get("/myposts", requireLogin, async (req, res) => {
     }
 });
 
-
 router.put("/like", requireLogin, async (req, res) => {
     try {
         const result = await POST.findByIdAndUpdate(
