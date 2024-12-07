@@ -26,5 +26,4 @@ const userSchema = new mongoose.Schema({
     following: [{ type: ObjectId, ref: "USER" }]
 })
 
-
 mongoose.model("USER", userSchema)
