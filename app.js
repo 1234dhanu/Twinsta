@@ -15,7 +15,6 @@ app.use(require("./routes/createPost"));
 app.use(require("./routes/user"));
 app.use(require("./routes/captions")); // Add this line to use the captions route
 
-
 // Catching all other routes that are not defined
 app.use((req, res) => {
     res.status(404).json({ error: "Not Found" });

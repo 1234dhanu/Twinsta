@@ -1164,7 +1164,8 @@ const captions = [
   { text: "Gardening: where patience meets beauty 🌱🌸⏳",keyword: "garden" }
 
 ];
-  
+ 
+
 async function seedCaptions() {
   try {
     // Connect to MongoDB

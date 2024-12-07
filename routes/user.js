@@ -86,4 +86,5 @@ router.put("/uploadProfilePic", requireLogin, async (req, res) => {
     }
 });
 
+
 module.exports = router;
